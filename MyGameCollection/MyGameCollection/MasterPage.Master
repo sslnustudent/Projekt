@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MyGameCollection.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="~/MasterPageStyles.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Container">
+        <div id="Header">
+            <div id="HeaderText">
+                <h1>MyGameCollection</h1>
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+            </div>
+        
+            <div id="Menu">
+                <ul>
+                    <li><a href="Default.aspx">Hem</a></li>
+                    <li><a href="GameList.aspx" >Spelsamlingen</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="Content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
