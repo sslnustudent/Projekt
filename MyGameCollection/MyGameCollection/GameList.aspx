@@ -16,7 +16,8 @@
         <ItemTemplate>
             <tr>
                 <td>
-                    <%#: Item.GameName %>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# GetRouteUrl("Details", new { id = Item.GameID})%>' Text='<%# Item.GameName %>' />
+                  
                 </td>
             </tr>
         </ItemTemplate>

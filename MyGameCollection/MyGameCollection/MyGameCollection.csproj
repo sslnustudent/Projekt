@@ -57,18 +57,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Covers\1.jpg" />
     <Content Include="Default.aspx" />
+    <Content Include="Details.aspx" />
+    <Content Include="DetailStyle6.css" />
     <Content Include="GameList.aspx" />
-    <Content Include="MasterPageStyles.css" />
-    <Content Include="Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="MasterPageStyles4.css" />
+    <Content Include="NewGame.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
     </Compile>
     <Compile Include="GameList.aspx.cs">
       <DependentUpon>GameList.aspx</DependentUpon>
@@ -77,6 +93,9 @@
     <Compile Include="GameList.aspx.designer.cs">
       <DependentUpon>GameList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -84,11 +103,30 @@
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Model\Comment.cs" />
+    <Compile Include="Model\FileData.cs" />
     <Compile Include="Model\DAL\DALBase.cs" />
     <Compile Include="Model\DAL\GameDAL.cs" />
+    <Compile Include="Model\DAL\UserDAL.cs" />
+    <Compile Include="Model\Gallery.cs" />
     <Compile Include="Model\Game.cs" />
     <Compile Include="Model\Service.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="NewGame.aspx.cs">
+      <DependentUpon>NewGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewGame.aspx.designer.cs">
+      <DependentUpon>NewGame.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />
@@ -100,7 +138,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fronts\" />
     <Folder Include="Pictures\" />
   </ItemGroup>
   <PropertyGroup>

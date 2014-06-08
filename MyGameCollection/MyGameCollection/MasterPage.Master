@@ -1,29 +1,38 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MyGameCollection.MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" ViewStateMode="Disabled" Inherits="MyGameCollection.MasterPage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="~/MasterPageStyles.css" rel="stylesheet" />
+    <link href="MasterPageStyles4.css" rel="stylesheet" />
+    <link href="DetailStyle6.css" rel="stylesheet" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body id="body">
     <form id="form1" runat="server">
     <div id="Container">
         <div id="Header">
             <div id="HeaderText">
-                <h1>MyGameCollection</h1>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
-                <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ControlToValidate="NameTextBox" ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator><br />
+                <asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password"></asp:TextBox>
+                <asp:RequiredFieldValidator ControlToValidate="PasswordTextBox" ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator><br />
+
+                <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+                <asp:Button ID="LogInButton" runat="server" Text="Logga in" OnClick="LogInButton_Click" />
+                <asp:Button ID="RgistertButton" runat="server" Text="Registrera" ValidationGroup="None" OnClick="RgistertButton_Click" />
+                <asp:Label ID="Label1" CssClass="whitetext" runat="server" Text=""></asp:Label>
+                <asp:Button ValidationGroup="None" ID="LogOutButton" runat="server" Text="Logga ut" Visible="false" OnClick="LogOutButton_Click" />
             </div>
         
             <div id="Menu">
                 <ul>
-                    <li><a href="Default.aspx">Hem</a></li>
-                    <li><a href="GameList.aspx" >Spelsamlingen</a></li>
+                    <li><asp:HyperLink ID="HyperLink4" NavigateUrl='<%$ RouteUrl:routename=Default %>' runat="server" Text="Hem"></asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink1" NavigateUrl='<%$ RouteUrl:routename=GameList %>' runat="server" Text="Spelsamlingen"></asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink2" NavigateUrl='<%$ RouteUrl:routename=NewGame %>' runat="server" Text="Nytt spel"></asp:HyperLink></li>
+                    <%--<li><a href="Details.aspx"></a></li>--%>
                 </ul>
             </div>
         </div>
@@ -31,6 +40,8 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
             </asp:ContentPlaceHolder>
+        </div>
+        <div id="Footer">
         </div>
     </div>
     </form>

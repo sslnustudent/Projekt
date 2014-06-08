@@ -1,15 +1,31 @@
-﻿#Container {
+﻿body {
+    background-color:black;
+}
+#Container {
 
     max-width:800px;
     margin-left:auto;
     margin-right:auto;
 }
+#Footer {
+    max-width:800px;
+    height:150px;
+    background-color:#000080;
+    background-image:url('foot.png')
+}
+#CopyLabel {
+    color:white;
+     margin-left:auto;
+     margin-right:auto;
+    }
 #Header {
     clear:left;
     max-width:800px;
-    background-color:beige;
+    background-image:url('top.png');
+
 }
 #Content {
+    padding-bottom:50px;
     background-color:#DADBE0;
     padding-top:5px;
     padding-left:10px;
@@ -17,6 +33,9 @@
 }
 #Menu {
     margin-top:80px;
+}
+li {
+    list-style:none;
 }
 #Menu li a {
     font-family:Verdana;
@@ -66,3 +85,14 @@
 }
 h1
 { font-family:"Arial Black"}
+.whitetext {
+    color:white;
+}
+.NewGameTextBox {
+
+    width:500px;
+    height:600px;
+}
+#ValidationSummary1 {
+    color:white;
+}
