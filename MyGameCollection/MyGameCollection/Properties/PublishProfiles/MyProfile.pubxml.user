@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/MyGameCollection.dll">
+      <publishTime>06/08/2014 22:48:05</publishTime>
+    </File>
+    <File Include="Covers/1.jpg">
+      <publishTime>04/29/2014 15:23:02</publishTime>
+    </File>
+    <File Include="Covers/10.jpg">
+      <publishTime>05/29/2014 10:19:08</publishTime>
+    </File>
+    <File Include="Covers/11.jpg">
+      <publishTime>05/29/2014 10:31:14</publishTime>
+    </File>
+    <File Include="Covers/12.jpg">
+      <publishTime>06/03/2014 15:01:18</publishTime>
+    </File>
+    <File Include="Covers/13.jpg">
+      <publishTime>06/05/2014 10:10:29</publishTime>
+    </File>
+    <File Include="Covers/14.jpg">
+      <publishTime>06/05/2014 10:31:16</publishTime>
+    </File>
+    <File Include="Covers/16.jpg">
+      <publishTime>06/05/2014 13:47:30</publishTime>
+    </File>
+    <File Include="Covers/2.jpg">
+      <publishTime>04/29/2014 15:23:58</publishTime>
+    </File>
+    <File Include="Covers/27.jpg">
+      <publishTime>06/08/2014 19:40:59</publishTime>
+    </File>
+    <File Include="Covers/3.jpg">
+      <publishTime>04/29/2014 15:25:26</publishTime>
+    </File>
+    <File Include="Covers/4.jpg">
+      <publishTime>04/29/2014 15:26:41</publishTime>
+    </File>
+    <File Include="Covers/5.jpg">
+      <publishTime>05/15/2014 15:19:28</publishTime>
+    </File>
+    <File Include="Covers/6.jpg">
+      <publishTime>05/29/2014 10:05:53</publishTime>
+    </File>
+    <File Include="Covers/7.jpg">
+      <publishTime>05/29/2014 10:09:35</publishTime>
+    </File>
+    <File Include="Covers/8.jpg">
+      <publishTime>05/15/2014 15:31:53</publishTime>
+    </File>
+    <File Include="Covers/9.jpg">
+      <publishTime>05/27/2014 11:49:53</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/29/2014 10:36:47</publishTime>
+    </File>
+    <File Include="Details.aspx">
+      <publishTime>06/08/2014 18:43:24</publishTime>
+    </File>
+    <File Include="DetailStyle6.css">
+      <publishTime>06/03/2014 14:51:16</publishTime>
+    </File>
+    <File Include="foot.png">
+      <publishTime>06/02/2014 22:49:30</publishTime>
+    </File>
+    <File Include="GameList.aspx">
+      <publishTime>06/04/2014 23:15:07</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/06/2014 11:28:42</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>06/08/2014 22:47:53</publishTime>
+    </File>
+    <File Include="MasterPageStyles4.css">
+      <publishTime>06/08/2014 22:45:23</publishTime>
+    </File>
+    <File Include="MasterPageStyles5.css">
+      <publishTime>06/08/2014 22:49:22</publishTime>
+    </File>
+    <File Include="NewGame.aspx">
+      <publishTime>06/08/2014 18:08:41</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>06/08/2014 16:29:01</publishTime>
+    </File>
+    <File Include="top.png">
+      <publishTime>06/02/2014 14:58:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/08/2014 22:31:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿#Information {
+    float:left;
+    width:450px;
+}
+#ContentPlaceHolder1_ShowImage {
+    margin-top:50px;
+    margin-left:50px;
+    width:700px;
+}
+#Cover {
+    float:left;
+    width:290px;
+    clear:right;
+}
+#Comments {
+    margin-left:25%;
+    margin-right:25%;
+    clear:right;
+    max-width:800px;
+}
+.CommentFrame {
+    border-style:solid;
+    max-width:800px;
+    margin-top:50px;
+    background-color:white;
+}
+.CommentTime {
+
+    float:left;
+    clear:right;
+    margin-left:100px;
+    font-weight:lighter
+}
+.CommentUser {
+    margin-left:5px;
+    float:left;
+    font-weight:bold;
+}
+.CommentText {
+    margin-left:5px;
+    clear:left;
+}
+#CoverImage {
+        float:left;
+    height:400px;
+    clear:right;
+}
+#ContentPlaceHolder1_CoverImage {
+    float:left;
+    height:400px;
+    clear:right;
+}
+#MakeCommentDiv {
+    margin-left:25%;
+    margin-right:25%;
+}
+#Pics {
+    margin-left:50px;
+    margin-right:50px;
+    clear:left;
+    margin-top:30px;
+}
+.writebox {
+
+    width:400px;
+    height:150px;
+}
+#ContentPlaceHolder1_TextLabel {
+    margin-left:25%;
+    margin-top:100px;
+}

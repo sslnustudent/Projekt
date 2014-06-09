@@ -1,0 +1,5 @@
+C:\Users\Sebastian Svensson\Desktop\GitHub\Projekt\MyGameCollection\MyGameCollection\bin\MyGameCollection.dll
+C:\Users\Sebastian Svensson\Desktop\GitHub\Projekt\MyGameCollection\MyGameCollection\bin\MyGameCollection.pdb
+C:\Users\Sebastian Svensson\Desktop\GitHub\Projekt\MyGameCollection\MyGameCollection\obj\Release\MyGameCollection.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian Svensson\Desktop\GitHub\Projekt\MyGameCollection\MyGameCollection\obj\Release\MyGameCollection.dll
+C:\Users\Sebastian Svensson\Desktop\GitHub\Projekt\MyGameCollection\MyGameCollection\obj\Release\MyGameCollection.pdb

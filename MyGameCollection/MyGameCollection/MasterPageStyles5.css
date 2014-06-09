@@ -11,7 +11,7 @@
     max-width:800px;
     height:150px;
     background-color:#000080;
-    background-image:url('foot.png')
+    background-image:url('http://172.16.214.1/1dv406/ss222tb/foot.png')
 }
 #CopyLabel {
     color:white;
@@ -21,7 +21,7 @@
 #Header {
     clear:left;
     max-width:800px;
-    background-image:url('top.png');
+    background-image:url('http://172.16.214.1/1dv406/ss222tb/top.png');
 
 }
 #Content {

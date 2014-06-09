@@ -58,14 +58,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Covers\1.jpg" />
+    <Content Include="Covers\10.jpg" />
+    <Content Include="Covers\11.jpg" />
+    <Content Include="Covers\12.jpg" />
+    <Content Include="Covers\13.jpg" />
+    <Content Include="Covers\14.jpg" />
+    <Content Include="Covers\16.jpg" />
+    <Content Include="Covers\2.jpg" />
+    <Content Include="Covers\27.jpg" />
+    <Content Include="Covers\3.jpg" />
+    <Content Include="Covers\4.jpg" />
+    <Content Include="Covers\5.jpg" />
+    <Content Include="Covers\6.jpg" />
+    <Content Include="Covers\7.jpg" />
+    <Content Include="Covers\8.jpg" />
+    <Content Include="Covers\9.jpg" />
     <Content Include="Default.aspx" />
     <Content Include="Details.aspx" />
     <Content Include="DetailStyle6.css" />
+    <Content Include="foot.png" />
     <Content Include="GameList.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="MasterPageStyles4.css" />
+    <Content Include="MasterPageStyles5.css" />
     <Content Include="NewGame.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="top.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -130,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />
+    <None Include="Properties\PublishProfiles\MyProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
